@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio</title>
+
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fontello/css/fontello.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media-query.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="body-inner-wrapper">
+<!-- Navbar
+================================================== -->
+<div id="menu-wrapper" class="navbar-wrapper">
+    <div class="inner-container">
+        <div id="navigation-bar" class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <div id="menu" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="active home"><a href="#main-slider"> Home</a></li>
+                        <li class="service"><a href="#services-wrapper">Services</a></li>
+                        <li class="about"><a href="#aboutus-wrapper">About</a></li>
+                        <li class="blog"><a href="#blog-wrapper">Blog</a></li>
+                        <li class="contact"><a href="#contact-wrapper">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slideshow
+================================================== -->
+<div id="main-slider" class="no-margin">
+    <div class="carousel slide wet-asphalt">
+        <!--
+        <ol class="carousel-indicators">
+            <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#main-slider" data-slide-to="1"></li>
+            <li data-target="#main-slider" data-slide-to="2"></li>
+        </ol>
+        -->
+        <div class="carousel-inner">
+            <div class="item active" style="background-image: url(images/slider/kij.jpeg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="carousel-content centered">
+                                <h2 class="animation animated-item-1">Hello! I am</h2>
+
+                                <h2 class="animation animated-item-2">KARETI JAHNAVI ALEKHYA</h2>
+                                <br>
+								<span class="content-nav">
+									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
+								</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.item-->
+            <div class="item" style="background-image: url(images/slider/slide2.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="carousel-content center centered">
+                                <h2 class="animation animated-item-1">Easy and <span>Customizable</span></h2>
+
+                                <h2 class="animation animated-item-2">Responsive Theme</h2>
+                                <br>
+								<span class="content-nav">
+									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
+								</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.item-->
+
+            <div class="item">
+                <video id="video_background" preload="auto" autoplay loop="loop" muted="muted" controls>
+                    <source src="videos/splash.webm" type="video/webm">
+                    <source src="videos/splash.mp4" type="video/mp4">
+                    <source src="videos/splash.ogv" type="video/ogg">
+                    Video not supported
+                </video>
+
+                <div id="video_pattern"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="carousel-content centered">
+
+                                <h2 class="animation animated-item-1">The Best <span>HTML5 Theme</span></h2>
+
+                                <h2 class="animation animated-item-2">You Have Ever Seen</h2>
+
+                                <br>
+                                <span class="content-nav">
+                                    <a href="#services-wrapper" class="animation animated-item-3">Go</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.item-->
+        </div>
+        <!--/.carousel-inner-->
+    </div>
+    <!--/.carousel-->
+    <a class="prev hidden-xs rounded" href="#main-slider" data-slide="prev">
+        <i class="fa fa-angle-left"></i>
+    </a>
+    <a class="next hidden-xs rounded" href="#main-slider" data-slide="next">
+        <i class="fa fa-angle-right"></i>
+    </a>
+</div>
+<!--/#main-slider-->
+
+<div id="body-wrapper">
+
+<!-- Services
+================================================== -->
+<div id="services-wrapper">
+    <div id="services">
+        <div class="inner-wrapper">
+			<div class="container">
+				<h2>Check out my <span>Services</span></h2>
+
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="service-box service-fold">
+							<i class="hippo-icon-diamond"></i>
+
+							<h3>Web Developemnt</h3>
+
+							<p>
+								I love to create and design with my passion of building epic web experiences to blow people's minds.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="service-box service-fold">
+							<i class="hippo-icon-lightbulb"></i>
+
+							<h3>Creative Idea</h3>
+
+							<p>
+								A successful website does these things:
+                                                 It attracts the right kinds of visitors.
+                                                 Guides them to the main services or product you offer.
+                                                 
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="service-box service-fold">
+							<i class="hippo-icon-beaker"></i>
+
+							<h3>Pro Solution</h3>
+
+							<p>
+								Engineers can solve problems, If they can't they will create one.I am the type of engineer who can solve any kind of problem easily.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="service-box service-fold">
+							<i class="hippo-icon-pencil"></i>
+
+							<h3>Web Design</h3>
+
+							<p>
+								Created a travelling website,and a web application in hackathon event under clean water and sanitation.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="service-box service-fold">
+							<i class="hippo-icon-paper-plane"></i>
+
+							<h3>Achievements</h3>
+
+							<p>
+								Participated in workshop on Artificial Intelligence,web designing and courses like photoshop, blogging, softskills.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="service-box service-fold">
+							<i class="hippo-icon-star"></i>
+
+							<h3>Area of Interests</h3>
+
+							<p>
+								C, Java, Photoshop, Web development.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="service-box service-fold">
+							<i class="hippo-icon-heart"></i>
+
+							<h3>Internships</h3>
+
+							<p>
+							 Completed Internship on Web Development at Uniq Technologies.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="service-box service-fold">
+							<i class="hippo-icon-photo"></i>
+
+							<h3>Projects and Hackathons</h3>
+
+							<p>
+							 I have participated in a stackathon which was conducted by studymonk and given my level best in website creation.
+                             
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+</div>
+<!--/#services-->
+
+
+                                                    
+                                            
+
+                                                  
+                                      
+                                               
+
+<!-- About us
+================================================== -->
+<div id="aboutus-wrapper">
+    <div id="aboutus">
+        <div class="inner-wrapper">
+            <div class="row">
+                <div class="container">
+                    <h2>Read more <span> About us</span></h2>
+
+                    <div class="row contents">
+                        <div class="col-md-6">
+                            <p>Currently I am doing virtual 4th year of my Engineering in Narayana Engineering College, and I had choosen my passionate stream Computer Science Engineering with CGPA-8.0. I passed my Higher Secondary Certification with 90%. I done my schooling in Bhashyam Public school with 8.5 GPA. Different people have different passions, my passion is to become a web developer. My parents are Ramakanth and Sreedevi.</p>
+
+                            <p> To enhance my professional skills, capabilities and knowledge in an organization which recognizes the value of hard work and trusts me with responsibilities and challenges.</p>
+
+                            <p> Every pleasure is to be welcomed and every pain avoided. But in certain
+                                circumstances
+                                and owing to the claims of duty or the obligations of business it will frequently
+                                occur
+                                that pleasures have to be repudiated and annoyances accepted. The wise man
+                                therefore
+                                always holds in these matters to this principle of selection: he rejects pleasures
+                                to
+                                secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>My Skills</h3>
+
+                         <p>I like to become Web Developer and I joined in Studymonk, that helps me more to become a great Web Developer. So I completed every course that is given by Studymonk successfully, and gained worthful knowledge.</p>
+
+                            <div class="progress-bars">
+                                <div class="skill-progress" data-skill="95%">CSS</div>
+                                <div class="skill-progress" data-skill="90%">HTML</div>
+                                <div class="skill-progress" data-skill="90%">PHP</div>
+                                <div class="skill-progress" data-skill="85%">Photoshop</div>
+                            </div>
+                            <div class="connect">
+                                <h3>Connect with us</h3>
+
+                                <div class="social-shares">
+                                    <ul>
+                                    
+                                        <li><a href="https://www.linkedin.com/in/kareti-jahnavi-alekhya-9694631a9/"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="https://www.instagram.com/dimpy_0523/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/#about-us-->
+
+
+
+
+
+                            
+        
+                        
+            
+            
+                            
+                        
+                
+                           
+
+                           
+    
+
+<div id="blog-wrapper">
+<div id="blog">
+<div class="inner-wrapper">
+<div class="row">
+<div class="container">
+<h2>
+    Check out my latest
+            <span>
+              Blog
+            </span>
+</h2>
+
+<div class="row">
+<div class="col-md-6">
+    <ul class="blog-posts-list">
+        <li class="active">
+                  <span class="date">
+                    July 04, 2020
+                  </span>
+            <a href="https://medium.com/@dimpy.kareti748/landing-on-my-feet-ee1b56f54ee3">
+                LANDING ON MY FEETS: If you think good design is expensive, you should lookat the cost of bad design.
+            </a>
+        </li>
+        <li>
+                  <span class="date">
+                   July 04, 2020  </span>
+            <a href="https://medium.com/@dimpy.kareti748/mickey-mouse-18317edca8c6">
+                Mickey Mouse:Sometimes the smallest things take up the most room in your heart.
+            </a>
+        </li>
+        
+    </ul>
+    <div class="blog-directions">
+                <span class="prev-items rounded">
+                  <i class="fa fa-angle-left">
+                  </i>
+                </span>
+                <span class="next-items rounded">
+                  <i class="fa fa-angle-right">
+                  </i>
+                </span>
+    </div>
+</div>
+<div class="col-md-6">
+    <div class="tab-content blog-post-descriptions">
+        <div class="tab-pane active has-thumbnail" id="a">
+            <div class="entry-title">
+                <div class="blog-header-wrapper">
+                    <div class="blog-date">
+                        <span class="blog-date-day">
+                          04
+                        </span>
+                        <span class="blog-date-other">
+                          Jul, 2020
+                        </span>
+                    </div>
+                    <div class="blog-title">
+                        Landing on my feet:Don’t focus my personality with my attitude.My personality is who i’m.My attitude depends on who you’re.
+                    </div>
+                </div>
+                <div class="blog-entry-thumb">
+                    <img src="images/blog/ju.jpeg" class="img-responsive" alt="">
+                </div>
+            </div>
+            <div class="entry-content">
+                <p>
+                    
+                </p>
+                <a class="readmore" data-linktype="modal" data-modalclass="blog-style" href="https://medium.com/@dimpy.kareti748/landing-on-my-feet-ee1b56f54ee3"> <i class=" fa fa-arrow-circle-o-right"></i>
+                </a>
+            </div>
+        </div>
+       
+        <div class="tab-pane has-thumbnail" id="c">
+            <div class="entry-title">
+                <div class="blog-header-wrapper">
+                    <div class="blog-date">
+                        <span class="blog-date-day">
+                          05
+                        </span>
+                        <span class="blog-date-other">
+                          Jul, 2020
+                        </span>
+                    </div>
+                    <div class="blog-title">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua
+                    </div>
+                </div>
+                <div class="blog-entry-thumb">
+                    <img src="images/blog/mickey.jpeg" class="img-responsive" alt="">
+                </div>
+            </div>
+            <div class="entry-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+                <a class="readmore" data-linktype="modal" data-modalclass="blog-style" href="https://medium.com/@dimpy.kareti748/mickey-mouse-18317edca8c6">
+                </a>
+            </div>
+        </div>
+        <div class="tab-pane" id="d">
+            <div class="entry-title">
+                <div class="blog-header-wrapper">
+                    <div class="blog-date">
+                        <span class="blog-date-day">
+                          07
+                        </span>
+                        <span class="blog-date-other">
+                          Nov, 2013
+                        </span>
+                    </div>
+                    <div class="blog-title">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua
+                    </div>
+                </div>
+            </div>
+            <div class="entry-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+                <a class="readmore" data-linktype="modal" data-modalclass="blog-style" href="blog-single1.html">Read
+                    more <i class=" fa fa-arrow-circle-o-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clearfix">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--/#blog-->
+
+<!-- Contact
+================================================== -->
+<div id="contact-wrapper">
+    <div id="contact">
+        <div class="inner-wrapper">
+            <div class="row">
+                <div class="container">
+                    <h2><span>Contact us</span> Now</h2>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id=""></div>
+                            <div class="contact-info">
+                                <ul>
+                                    <li class="first">
+                                        <p><i class="fa fa-map-marker fa-2"></i>Contact Details:</p>
+
+                                        <p>Rookshith,Flat no.101,Balajinagar,Nellore,A.P.,524002.</p>
+                                    </li>
+                                    <li class="second">
+                                        <p><i class="fa fa-phone fa-2"></i> +91 9502911409</p>
+
+                                        <p><i class="fa fa-envelope fa-2"></i> dimpy.kareti748@gmail.com </p>
+                                    </li>
+                                    
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="message-box">
+                                <h3>Send Message</h3>
+
+                                <form method="post" action="#">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <textarea class="form-control" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input type="submit" class="readmore send-button"
+                                                   value="Send Message">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/#contact-wrapper-->
+</div>
+<!--/.body-wrapper-->
+
+<!-- Bottom
+================================================== -->
+<div id="bottom">
+    <div class="row">
+        <a id="to-top" href="#main-slider"><i class="fa fa-long-arrow-up"></i></a>
+
+        <div class="container">
+            <div class="col-xs-6">
+                <div class="social-shares">
+                    <ul>
+                        <li><a href="https://www.instagram.com/dimpy_0523/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/kareti-jahnavi-alekhya-9694631a9/"><i class="fa fa-linkedin"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="copyright">
+                    <p>Copyright &copy; 2013 Sweep / Design by <a href="https://uicookies.com">uiCookies</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/#bottom-->
+
+<!-- Modal Window
+================================================== -->
+<div id="modal-window-wrapper" class="blog-style">
+    <div id="modal-window" class="left-top-fold">
+        <div id="modal-window-box">
+            <div class="inner-wrapper">
+                <div class="row">
+                    <div id="modal-window-content" class="container">
+                        <div>
+                            <!-- Modal window contents goes here -->
+                        </div>
+                    </div>
+                    <div class="modal-loading">Loading...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+</div><!--/#Modal Window-->
+
+</div>
+<!--/.body-inner-wrapper-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/themehippo.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
